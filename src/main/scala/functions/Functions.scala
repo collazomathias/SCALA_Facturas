@@ -5,9 +5,28 @@ import bill.Bill
 import product.Product
 import quantityProduct.QuantityProduct
 
-object Functions {
+trait Functions {
     // Decorador para decimales
     val df = new DecimalFormat("#.##")
+
+    // Constantes
+    val Iva : Double = 0.19
+    val Ipoconsumo : Double = 0.16
+
+    def createBill() : Bill
+    def calculateIVA(total : Double) : Double
+    def calculateIpoconsumo(prod : Product) : Double
+    def getTotalProduct(prod : Product, quantity: Int) : Double
+    def getTotal(bill : Bill) : Double
+    def getTotalIVA(bill : Bill) : Double
+    def showProducts(bill : Bill) : Unit
+    def showTotal(bill : Bill) : Unit
+    def showTotalIVA(bill : Bill) : Unit
+    def showTotalWithIVA(bill : Bill) : Unit
+    def showBillDetails(bill : Bill) : Unit
+}
+
+object Functions extends Functions {
 
     def createBill() : Bill = {
         // Creando productos por defecto
@@ -15,6 +34,7 @@ object Functions {
         val prod2 = Product("Milk", 25.5, false)
         val prod3 = Product("Pepsi", 83.0, true)
         val prod4 = Product("Oreo", 62.5, true)
+
         val quantityProd1 = QuantityProduct(prod1, 2, getTotalProduct(prod1, 2))
         val quantityProd2 = QuantityProduct(prod2, 1, getTotalProduct(prod2, 1))
         val quantityProd3 = QuantityProduct(prod3, 3, getTotalProduct(prod3, 3))
@@ -25,14 +45,14 @@ object Functions {
     }
 
     def calculateIVA(total : Double) : Double = {
-        total * 0.19
+        total * Iva
     }
 
     def calculateIpoconsumo(prod : Product) : Double = {
-        if(prod.ipoconsumo)
-            prod.price * 1.16
-        else
-            prod.price
+        prod.ipoconsumo match {
+            case true => prod.price * (1 + Ipoconsumo)
+            case false => prod.price
+        }
     }
 
     def getTotalProduct(prod : Product, quantity: Int) : Double = {

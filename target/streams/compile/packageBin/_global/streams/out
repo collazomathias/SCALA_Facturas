@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bill[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\bill[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bill\Bill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\bill\Bill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bill\Bill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\bill\Bill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	functions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\functions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	functions\Functions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\functions\Functions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	functions\Functions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\functions\Functions.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\product[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product\Product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\product\Product$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product\Product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\product\Product.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	quantityProduct[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\quantityProduct[0m
+[0m[[0m[0mdebug[0m] [0m[0m	quantityProduct\QuantityProduct$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\quantityProduct\QuantityProduct$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	quantityProduct\QuantityProduct.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mathi\Desktop\Scala\facturas-project\target\scala-2.13\classes\quantityProduct\QuantityProduct.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
